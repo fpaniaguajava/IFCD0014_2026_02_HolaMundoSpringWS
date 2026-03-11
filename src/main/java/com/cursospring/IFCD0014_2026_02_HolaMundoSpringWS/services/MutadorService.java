@@ -14,7 +14,6 @@ public class MutadorService {
         animales.add("Tigre");
         animales.add("Burro");
         animales.add("Mosca");
-        animal.setEspecie("Tigre");
         Random rand = new Random();
         int indiceAleatorio = rand.nextInt(animales.size());
         animal.setEspecie(animales.get(indiceAleatorio));

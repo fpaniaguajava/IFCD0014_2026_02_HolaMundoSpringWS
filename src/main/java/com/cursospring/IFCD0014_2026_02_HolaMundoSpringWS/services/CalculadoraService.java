@@ -7,4 +7,8 @@ public class CalculadoraService {
     public Integer sumar(Integer numero1, Integer numero2) {
         return numero1+numero2;
     }
+
+    public Integer restar(Integer numero1, Integer numero2) {
+        return numero1-numero2;
+    }
 }
